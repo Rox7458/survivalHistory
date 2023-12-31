@@ -57,7 +57,7 @@ export const data = [
   },
   {
     name: "Ragnarok",
-    img: "https://static.wikia.nocookie.net/ark-survival-evolved/images/1/1d/Ragnorock_cover_image.jpg/revision/latest?cb=20170822183809",
+    img: "https://pm1.aminoapps.com/6492/ec3efd48b19dce140edd35e866e52543cc766f32_00.jpg",
     statistics: [
       "June 12 2017",
       "Xbox,Ps4,Steam",

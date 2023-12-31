@@ -5,7 +5,32 @@
 }
 
 body {
-  background-color:#f4d467;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #67bef4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*! Player Card/Component Styling */
+.card-container {
+  background-image: url("https://images6.alphacoders.com/910/910352.jpg");
+  min-width: 300px;
+  min-height: 432px;
+}
+
+.map-card {
+  height: 400px;
+  max-width: 280px;
+  min-width: 230px;
+}
+.map-card:hover {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.map-logo {
+  height: 350px;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.map-card:hover .map-logo {
+  transform: scale(0.95);
+}
